@@ -1,0 +1,51 @@
+body {
+  background-color: grey;
+}
+
+.slider {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+.slider .arrow {
+  position: absolute;
+  z-index: 2;
+  top: 200px;
+  color: white;
+}
+.slider .left {
+  left: 160px;
+}
+.slider .right {
+  right: 160px;
+}
+.slider .image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.slider .image img {
+  width: 80%;
+  height: 400px;
+  position: absolute;
+  opacity: 0;
+}
+.slider .slider-ft {
+  top: 340px;
+  left: 600px;
+  position: absolute;
+}
+.slider .slider-ft i {
+  padding: 0px 5px;
+  color: grey;
+  opacity: 0.8;
+  font-size: 12px;
+}
+.slider .slider-ft i:hover {
+  color: rgb(140, 93, 93);
+  opacity: 1;
+}
+
+.active-img {
+  opacity: 1 !important;
+}/*# sourceMappingURL=style.css.map */

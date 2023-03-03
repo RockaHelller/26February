@@ -1,0 +1,69 @@
+/*# sourceMappingURL=style.css.map */
+
+#highlights .all{
+    color: #00415c;
+    margin-bottom: 100px;
+
+}
+
+#highlights .all .up{
+    display: flex;
+    margin-bottom: 30px;
+} 
+
+#highlights .all .up span{
+    font-size: 28px;
+    margin-right: 25px;
+}
+
+#highlights .all .up .icons{
+    padding-top: 5px;
+} 
+
+#highlights .all .down{
+    display: flex;
+    gap: 90px;
+}
+
+#highlights .all .down .items{
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+}
+
+#highlights .all .down .items .item .paragraph-time{
+    display: flex;
+    flex-direction: column;
+}
+
+#highlights .all .down .items img{
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+#highlights .all .down .items span{
+    font-size: 20px;
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    margin-top: 20px;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    width: 223px;
+}
+
+#highlights .all .down .items .time{
+    font-size: 16px;
+}
+
+#highlights .all .down .advert img{
+    border-radius: 12px;
+}
+
+.icons .left{
+    transform: rotate(180deg);
+    margin-right: 26px;
+}
